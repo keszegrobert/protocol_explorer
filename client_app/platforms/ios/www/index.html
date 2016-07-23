@@ -12,28 +12,43 @@
 <body>
     <div data-role="page" id="pageone">
       <div data-role="main" class="ui-content">
-        <h2>My Phonebook</h2>
+        <h2>Protokoll lista</h2>
         <form class="ui-filterable">
           <input id="myFilter" data-type="search">
         </form>
         <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="false" data-inset="true" id="lst_protocol">
-          <li><a href="#">Adele</a></li>
-          <li><a href="#">Agnes</a></li>
-          <li><a href="#">Albert</a></li>
-          <li><a href="#">Billy</a></li>
-          <li><a href="#">Bob</a></li>
-          <li><a href="#">Calvin</a></li>
-          <li><a href="#">Cameron</a></li>
-          <li><a href="#">Chloe</a></li>
-          <li><a href="#">Christina</a></li>
-          <li><a href="#">Diana</a></li>
-          <li><a href="#">Gabriel</a></li>
-          <li><a href="#">Glen</a></li>
-          <li><a href="#">Ralph</a></li>
-          <li><a href="#">Valarie</a></li>
         </ul>
       </div>
     </div>
+
+    <div data-role="page" id="pagetwo">
+      <div data-role="header">
+        <h1>Protokoll</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h1>Háttér</h1>
+        <p id="hatter">Példa háttérre</p>
+        <h1>Anamnézis</h1>
+        <p id="anamnezis">Példa anamnézisre</p>
+        <h1>Klinikum</h1>
+        <p id="klinikum">Példa klinikumra</p>
+        <h1>Diagnózis</h1>
+        <p id="diagnozis">Példa diagnózisra</p>
+        <h1>Terápia</h1>
+        <p id="terapia">Példa terápiára</p>
+        <h1>Megjegyzés</h1>
+        <p id="megjegyzes">Példa megjegyzésre</p>
+        <h1>Irodalom</h1>
+        <p id="irodalom">Példa irodalomra</p>
+        <a href="#pageone" data-rel="back" data-role="button">Vissza a protokollok listájához</a>
+      </div>
+
+      <div data-role="footer">
+        <h1>Protokoll</h1>
+      </div>
+    </div>
+
     <script src="js/index.js"></script>
 </body>
 </html>
