@@ -1,2 +1,5 @@
 .gradle
+*.apk
+*.iml
 build/
+.idea/

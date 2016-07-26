@@ -17,7 +17,48 @@
                     "name" : "Protocol A, Section 2",
                     "content" : "Sample section 2 for protocol A"
                 },
-            ]
+            ],
+            "procedure":{
+                "question": "Why is a the life with a bullet in your heart not so simple?",
+                "answers": [
+                    {
+                        "answer":"Because it hurts",
+                        "procedure": {
+                            "question": "How can it hurt less?",
+                            "answers": [
+                                {
+                                    "answer": "Remove the bullet",
+                                    "procedure": {
+                                        "question" : "A couple of days and you will know if you survive or not",
+                                        "answers" : []
+                                    }
+                                },
+                                {
+                                    "answer": "Take some pills",
+                                    "procedure": {
+                                        "question":"This will end your pain for a coplue of hours",
+                                        "answers" : []
+                                    }
+                                },
+                                {
+                                    "answer": "Die",
+                                    "procedure" : {
+                                        "question": "Death will definitely stop your pain",
+                                        "answers": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "answer": "Because not so many people has survived this state yet",
+                        "procedure": {
+                            "question" : "This is absolutely not the answer which helps you",
+                            "answers" : []
+                        }
+                    }
+                ]
+            }
         },
         {
             "name":"Protocol B",

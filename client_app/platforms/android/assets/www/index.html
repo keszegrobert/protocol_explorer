@@ -16,17 +16,18 @@
         <form class="ui-filterable">
           <input id="myFilter" data-type="search">
         </form>
-        <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="false" data-inset="true" id="lst_protocol">
+        <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="false" data-inset="true" id="protocol_list">
         </ul>
       </div>
     </div>
 
     <div data-role="page" id="pagetwo">
       <div data-role="header">
-        <h1>Protokoll</h1>
+        <a href="#pageone" data-rel="back" data-role="button">Back</a>
+        <h1 id="protocol_title">Protokoll</h1>
       </div>
 
-      <div data-role="main" class="ui-content">
+      <div data-role="main" class="ui-content" id="protocol_content">
         <h1>Háttér</h1>
         <p id="hatter">Példa háttérre</p>
         <h1>Anamnézis</h1>
@@ -41,11 +42,10 @@
         <p id="megjegyzes">Példa megjegyzésre</p>
         <h1>Irodalom</h1>
         <p id="irodalom">Példa irodalomra</p>
-        <a href="#pageone" data-rel="back" data-role="button">Vissza a protokollok listájához</a>
       </div>
 
       <div data-role="footer">
-        <h1>Protokoll</h1>
+        <h1>Procedure</h1>
       </div>
     </div>
 
